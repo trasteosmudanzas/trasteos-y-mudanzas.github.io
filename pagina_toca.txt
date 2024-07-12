@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mi Página Personal</h1>
+        </header>
+        <section>
+            <h2>Biografía</h2>
+            <p>¡Hola! Soy [ricardo]. Bienvenido/a trasteos y mudanzas.</p>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+            </ul>
+            <h2>Proyectos</h2>
+            <p>Aquí puedes mencionar algunos proyectos en los que has trabajado o estás trabajando.</p>
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de WhatsApp haciendo clic en el botón de abajo:</p>
+            <a class="whatsapp-btn" href="https://wa.me/3155591307?text=Hola%20[Nombre],%20estoy%20visitando%20tu%20página%20web.%20">Enviar Mensaje por WhatsApp</a>
+        </section>
+        <footer>
+            <p>&copy; 2024 Nombre Apellido. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
